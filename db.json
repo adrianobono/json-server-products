@@ -1,9 +1,9 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "products": [
+    { "id": 1, "title": "T-Shirt", "value": 39.99, "description": "This classic t-shirt is made from soft and breathable cotton, making it perfect for everyday wear. " },
+    { "id": 2, "title": "Jacket", "value": 172.15, "description": "stylish jacket is perfect for transitional weather. It is made from a lightweight and durable fabric" },
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "sales": [
+    { "id": 1, "products": [{"id": 1, "title": "T-Shirt", "quantity": 1, "value": 39.99,}, {"id": 2, "title": "Jacket", "quantity": 3, "value": 172.15} ] }
   ],
-  "profile": { "name": "typicode" }
 }
